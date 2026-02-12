@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Variables en Java.md",
+                "file": "6 - Main Notes/Variables de tipo primitivo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables en Java"
+              "title": "Variables de tipo primitivo"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.51103591918945
+    "width": 241.5
   },
   "right": {
     "id": "5671faf40b0b468b",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Variables en Java.md",
+                "file": "6 - Main Notes/Variables de tipo primitivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Variables en Java"
+              "title": "Backlinks for Variables de tipo primitivo"
             }
           },
           {
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 349.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,29 +200,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51fb15b68acb4d44",
+  "active": "7b71b3dad381a525",
   "lastOpenFiles": [
+    "img",
+    "img/Pasted image 20260212174637.png",
+    "6 - Main Notes/Variables.md",
+    "6 - Main Notes/Variables de tipo primitivo.md",
+    "3 - Tags/JavaBasics.md",
+    "3 - Tags/Java.md",
+    "1 - Rough Notes/JavaRuta.md",
+    "2 - Source Material/Articles/Java basics documentation.md",
     "README.md",
+    "6 - Main Notes/Untitled.base",
+    "5 - Templates/Main Note.md",
+    "3 - Tags/JavaSE.md",
+    "4 - Indexes/Lenguajes.md",
     "6 - Main Notes/Variables en Java.md",
     "6 - Main Notes/Operadores en Java.md",
-    "1 - Rough Notes/JavaRuta.md",
-    "3 - Tags/Java.md",
-    "4 - Indexes/Lenguajes.md",
-    "6 - Main Notes/Untitled.md",
-    "Untitled",
-    "3 - Tags/JavaSE.md",
     "4 - Indexes/Java.md",
     "1 - Rough Notes/Reminders.md",
-    "5 - Templates/Main Note.md",
     "Untitled.canvas",
-    "6 - Main Notes/Untitled.base",
     "6 - Main Notes/Untitled 5.base",
     "6 - Main Notes/Untitled 4.base",
     "6 - Main Notes/Untitled 3.base",
     "6 - Main Notes/Untitled 2.base",
     "6 - Main Notes/Untitled 1.base",
     "1 - Rough Notes/Writing log.md",
-    "3 - Tags/JavaBasics.md",
     "6 - Main Notes/Java.md",
     "6 - Main Notes/Training.md",
     "2 - Source Material/Videos",
@@ -235,9 +238,6 @@
     "Uaa/No-Sql/Anteproyecto.md",
     "Teoria/Backend/Backend from first principles/Beneficios de aprender Backend Engineering from first principles.md",
     "Teoria/Backend/Backend from first principles/Qué es un Backend (definición práctica).md",
-    "Programming/Nodejs/c2/Backend principes.md",
-    "Programming/Nodejs/c1/Testing.md",
-    "Programming/Nodejs/c1/Nodejs.md",
-    "Programming/Nodejs/c1/Desarrollando en Node.md"
+    "Programming/Nodejs/c2/Backend principes.md"
   ]
 }

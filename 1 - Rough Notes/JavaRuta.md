@@ -95,4 +95,3 @@
 	5. [ ] Stream Collectors
 	6. [ ] Parallel Streams
 
-Tags: [[Java]]
