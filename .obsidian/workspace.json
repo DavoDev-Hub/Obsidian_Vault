@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Variables de tipo primitivo.md",
+                "file": "6 - Main Notes/Sentencias de control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables de tipo primitivo"
+              "title": "Sentencias de control"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Variables de tipo primitivo.md",
+                "file": "6 - Main Notes/Sentencias de control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Variables de tipo primitivo"
+              "title": "Backlinks for Sentencias de control"
             }
           },
           {
@@ -200,13 +200,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7b71b3dad381a525",
+  "active": "51fb15b68acb4d44",
   "lastOpenFiles": [
-    "img",
-    "img/Pasted image 20260212174637.png",
+    "6 - Main Notes/Operators.md",
+    "6 - Main Notes/Sentencias de control.md",
+    "6 - Main Notes/Arreglos y matrices.md",
     "6 - Main Notes/Variables.md",
     "6 - Main Notes/Variables de tipo primitivo.md",
     "3 - Tags/JavaBasics.md",
+    "img/Pasted image 20260212180938.png",
+    "img",
+    "img/Pasted image 20260212174637.png",
     "3 - Tags/Java.md",
     "1 - Rough Notes/JavaRuta.md",
     "2 - Source Material/Articles/Java basics documentation.md",
@@ -236,8 +240,6 @@
     "Programming/LabMOVIL/Git.md",
     "Programming/LabMOVIL/Contexto.md",
     "Uaa/No-Sql/Anteproyecto.md",
-    "Teoria/Backend/Backend from first principles/Beneficios de aprender Backend Engineering from first principles.md",
-    "Teoria/Backend/Backend from first principles/Qué es un Backend (definición práctica).md",
-    "Programming/Nodejs/c2/Backend principes.md"
+    "Teoria/Backend/Backend from first principles/Beneficios de aprender Backend Engineering from first principles.md"
   ]
 }
