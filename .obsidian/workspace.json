@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Operadores en Java.md",
+                "file": "6 - Main Notes/Ciclo de ejecución Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Operadores en Java"
+              "title": "Outgoing links from Ciclo de ejecución Java"
             }
           },
           {

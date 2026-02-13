@@ -18,6 +18,8 @@ El JVM es el responsable de TODO el ultimo proceso. Se encarga de traducir el by
 ![[Pasted image 20260212201010.png]]
 
 
+La JVM ejecuta bytecode Java en 6 fases principales: **Loading**, **Linking**, **Initializing**, **Instantiating**, **Finalizing** y **Unloading**. Es el ciclo de vida completo de una clase desde que se carga hasta que se elimina.
+
 
 
 # References
