@@ -95,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/POO Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for POO Basics"
+              "title": "Backlinks"
             }
           },
           {
@@ -151,6 +150,20 @@
               "icon": "lucide-list",
               "title": "Outline of Operadores en Java"
             }
+          },
+          {
+            "id": "bf287357937f25cb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       },
@@ -186,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59190143dd9a5fdf",
+  "active": "1d2546cbd10df9f8",
   "lastOpenFiles": [
     "6 - Main Notes/POO Basics.md",
     "6 - Main Notes/Operators.md",

@@ -32,9 +32,48 @@ public class MyClass {
 ```
 Esto define una clase de Java publica llamada `myclass`. La clase no tiene campos, constructores ni métodos.
 
- 
 
+##### .java files
 
+La clase de arriba que acabamos de definir debe ser puesta en su propio archivo llamado `MyClass.java` los archivos de Java deben ser llamados como el nombre de la clase que contienen, con el .java (archivo de extensión).
+
+##### Clases con campos
+
+El siguiente ejemplo muestra una clase de java con el modelo de `car`. Enseguida la clase 
+
+``` Java
+public class Car {
+    public String brand = null;
+    public String model = null;
+    public String color = null;
+}
+```
+
+Este código define una clase llamada Car. La clase Car tiene tres campos. No tiene métodos. Solo campo declarados. 
+
+##### Clases con constructores
+La clase de Java puede tener un constructor. Un constructor es un método especial que es llamado cuando un objeto de la clase dada es creado.
+El propósito del constructor es inicializar los campos en la clase. Los campos también son llamados "estados internos":
+```Java
+public class Car {
+
+    public String brand = null;
+    public String model = null;
+    public String color = null;
+
+    public Car() {
+    }
+
+    public Car(String theBrand, String theModel, String theColor) {
+        this.brand = theBrand;
+        this.model = theModel;
+        this.color = theColor;
+    }
+
+}
+```
+
+Los constructores son los dos métodos que tienen el mismo nombre de la clase, y cada uno no tienen un tipo de retorno especifico. El primer constructor toma 
 
 
 # References
