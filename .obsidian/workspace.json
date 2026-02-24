@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Ciclo de ejecución Java.md",
+                "file": "6 - Main Notes/Métodos en Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ciclo de ejecución Java"
+              "title": "Métodos en Java"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Ciclo de ejecución Java.md",
+                "file": "6 - Main Notes/Métodos en Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Ciclo de ejecución Java"
+              "title": "Backlinks for Métodos en Java"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6 - Main Notes/Ciclo de ejecución Java.md",
+                "file": "6 - Main Notes/Variables de tipo primitivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Ciclo de ejecución Java"
+              "title": "Outgoing links from Variables de tipo primitivo"
             }
           },
           {
@@ -202,16 +202,19 @@
   },
   "active": "51fb15b68acb4d44",
   "lastOpenFiles": [
-    "Pasted image 20260212201010.png",
-    "Pasted image 20260212200957.png",
-    "img/Pasted image 20260212194331.png",
-    "6 - Main Notes/Sentencias de control.md",
+    "6 - Main Notes/Clases y Objetos.md",
+    "6 - Main Notes/Métodos en Java.md",
     "6 - Main Notes/Ciclo de ejecución Java.md",
-    "6 - Main Notes/Operators.md",
     "6 - Main Notes/Arreglos y matrices.md",
+    "3 - Tags/POO.md",
+    "3 - Tags/JavaBasics.md",
     "6 - Main Notes/Variables.md",
     "6 - Main Notes/Variables de tipo primitivo.md",
-    "3 - Tags/JavaBasics.md",
+    "6 - Main Notes/Operators.md",
+    "6 - Main Notes/Sentencias de control.md",
+    "img/Pasted image 20260212201010.png",
+    "img/Pasted image 20260212200957.png",
+    "img/Pasted image 20260212194331.png",
     "img/Pasted image 20260212180938.png",
     "img",
     "img/Pasted image 20260212174637.png",
@@ -240,8 +243,6 @@
     "2 - Source Material/Podcast",
     "2 - Source Material/Papers",
     "2 - Source Material/Artricles.md",
-    "Untitled.md",
-    "Programming/LabMOVIL/Git.md",
-    "Programming/LabMOVIL/Contexto.md"
+    "Untitled.md"
   ]
 }
