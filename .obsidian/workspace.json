@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Métodos en Java.md",
+                "file": "6 - Main Notes/Variables de tipo primitivo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Métodos en Java"
+              "title": "Variables de tipo primitivo"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6 - Main Notes/Métodos en Java.md",
+                "file": "6 - Main Notes/Variables de tipo primitivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Métodos en Java"
+              "title": "Backlinks for Variables de tipo primitivo"
             }
           },
           {
@@ -202,9 +202,9 @@
   },
   "active": "51fb15b68acb4d44",
   "lastOpenFiles": [
+    "6 - Main Notes/Métodos en Java.md",
     "6 - Main Notes/POO Basics.md",
     "6 - Main Notes/Clases y Objetos.md",
-    "6 - Main Notes/Métodos en Java.md",
     "6 - Main Notes/Ciclo de ejecución Java.md",
     "6 - Main Notes/Arreglos y matrices.md",
     "3 - Tags/POO.md",
