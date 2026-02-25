@@ -51,4 +51,4 @@ Usa el punto (`.`) para acceder a campos y métodos: `objeto.campo` o `objeto
 
 # References
 
-[[Métodos en Java]]
+[[Métodos y Atributos en Java]]
