@@ -8,7 +8,7 @@ Tags: [[Java]] [[POO]]
 # Especificadores de acceso
 
 En programación orientada a objetos, uno de los principios fundamentales es la *encapsulación*. Encapsulación consiste en agrupar datos (atributos o campos) y métodos (funciones). que operan en los datos dentro de una sola unidad (una clase), y restringir el acceso directo de alguno de los componentes de los objectos. Esta restriction es donde los Especificadores de acceso (también llamados Modificadores de acceso) entran.
-
+	
 Son como guardianes de tus clases, métodos y variables. Ellos determinan quien puede acceder a que. Usándolos puedes controlar la visibilidad y accesibilidad de los miembros de tu clase (campos, métodos, constructores, incluso clases enlazadas).
 
 Existen cuatro especificadores de acceso en java:
