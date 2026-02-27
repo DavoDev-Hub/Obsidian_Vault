@@ -144,6 +144,155 @@ _**Un bloque `static` se ejecuta una sola vez cuando la clase se carga en memo
 - _Múltiples bloques:_ Se ejecutan en orden de aparición
 - _Excepciones:_ Si falla, la clase no se puede usar
 
+```Java
+class DatabaseManager {
+    static String dbUrl;
+    static int maxConnections;
+    static String[] supportedDrivers;
+    static boolean isInitialized = false;
+    
+    // Primer bloque estático: configuración básica
+    static {
+        System.out.println("=== BLOQUE 1: Configuración básica ===");
+        dbUrl = "jdbc:mysql://localhost:3306/empresa_db";
+        maxConnections = 20;
+        System.out.println("DB URL configurada: " + dbUrl);
+    }
+    
+    // Segundo bloque estático: drivers y validación
+    static {
+        System.out.println("=== BLOQUE 2: Drivers y validación ===");
+        supportedDrivers = new String[] {
+            "com.mysql.cj.jdbc.Driver",
+            "org.postgresql.Driver"
+        };
+        
+        // Validación de entorno
+        String javaVersion = System.getProperty("java.version");
+        if (javaVersion.startsWith("1.8") || javaVersion.startsWith("11")) {
+            isInitialized = true;
+            System.out.println("Java compatible: " + javaVersion);
+        } else {
+            throw new RuntimeException("Java version no soportada: " + javaVersion);
+        }
+    }
+    
+    static void showStatus() {
+        System.out.println("\n=== ESTADO FINAL ===");
+        System.out.println("DB URL: " + dbUrl);
+        System.out.println("Max conexiones: " + maxConnections);
+        System.out.println("Drivers: " + String.join(", ", supportedDrivers));
+        System.out.println("Inicializado: " + isInitialized);
+    }
+}
+
+public class StaticBlockDemo {
+    public static void main(String[] args) {
+        // Al llamar cualquier método estático, se ejecutan TODOS los bloques
+        DatabaseManager.showStatus();
+        /*
+        Salida:
+        === BLOQUE 1: Configuración básica ===
+        DB URL configurada: jdbc:mysql://localhost:3306/empresa_db
+        === BLOQUE 2: Drivers y validación ===
+        Java compatible: 17.0.2
+        === ESTADO FINAL ===
+        DB URL: jdbc:mysql://localhost:3306/empresa_db
+        Max conexiones: 20
+        Drivers: com.mysql.cj.jdbc.Driver, org.postgresql.Driver
+        Inicializado: true
+        */
+    }
+}
+
+```
+**Cuándo usar bloques `static`?**
+
+- Inicializar colecciones grandes o complejas
+- Cargar configuraciones desde properties/JSON/YAML
+- Validar requisitos del sistema al inicio
+- Crear singletons o caches globales
+- Registrar drivers JDBC automáticamente
+
+##### 4. Clases Anidadas Estáticas
+
+_**Una clase `static` anidada no necesita una instancia de la clase externa para existir ni acceder a sus miembros.**_ Organiza clases auxiliares de forma encapsulada.
+
+**Características principales:**
+
+- _Independiente:_ `Outer.Nested obj = new Outer.Nested()`
+- _Sin `this` externo:_ No accede a campos de instancia de OuterClass
+- _Top-level like:_ Se comporta como clase independiente
+- _Mejor organización:_ Lógica relacionada en un solo archivo
+```Java
+class LinkedList {
+    private Node head;
+    private int size;
+    
+    // Clase anidada ESTÁTICA para nodos
+    static class Node {
+        String data;
+        Node next;
+        int index;
+        
+        Node(String data) {
+            this.data = data;
+            this.next = null;
+            this.index = -1;
+        }
+        
+        // Método estático auxiliar para crear nodos
+        static Node createNode(String data, int index) {
+            Node node = new Node(data);
+            node.index = index;
+            return node;
+        }
+        
+        @Override
+        public String toString() {
+            return String.format("Node[index=%d, data='%s']", index, data);
+        }
+    }
+    
+    public void add(String data) {
+        Node newNode = Node.createNode(data, size); // Usa método estático de nested class
+        // lógica de LinkedList...
+        size++;
+    }
+    
+    public void printList() {
+        Node current = head;
+        while (current != null) {
+            System.out.println(current);
+            current = current.next;
+        }
+    }
+}
+
+public class StaticNestedDemo {
+    public static void main(String[] args) {
+        System.out.println("--- Creando nodo SIN instancia de LinkedList ---");
+        // ¡Funciona sin crear LinkedList!
+        LinkedList.Node node1 = new LinkedList.Node("Alice");
+        LinkedList.Node node2 = LinkedList.Node.createNode("Bob", 1);
+        
+        System.out.println("Nodo 1: " + node1); // Node[index=-1, data='Alice']
+        System.out.println("Nodo 2: " + node2); // Node[index=1, data='Bob']
+        
+        System.out.println("\n--- Usando en LinkedList ---");
+        LinkedList list = new LinkedList();
+        list.add("Charlie");
+        // list.printList();
+    }
+}
+
+```
+**¿Cuándo usar clases anidadas `static`?**
+- Estructuras de datos auxiliares: `Map.Entry`, `List.Node`
+- Clases builder/helper específicas: `Optional.empty()`
+- Enumeraciones relacionadas: `Thread.State`, `ProcessBuilder.Redirect`
+- DTOs puros estrechamente acoplados a la clase padre
+
 
 
 # References
