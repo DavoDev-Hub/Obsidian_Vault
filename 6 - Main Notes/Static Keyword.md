@@ -7,7 +7,7 @@ Tags: [[Java]] [[POO]]
 
 # Static Keyword
 
-En Java, el `static` keyword es un non-access modificador que puede ser aplicado a miembros de una clase: variables, métodos, clases anidadas, y bloques inicializadores. Cuando un miembro es declarado `static`, este pertenece a la clase por si misma, mas que a cualquier instancia especifica(objeto) de esa clase.
+En Java, el `static` keyword es un non-access modificador que puede ser aplicado a miembros de una clase: variables, métodos, clases anidadas, y bloques inicializadores. Cuando un miembro es declarado `static`, este pertenece a la clase por si misma, mas que a cualquier instancia especifica (objeto) de esa clase.
 
 Piénsalo de esta manera:
 * *Miembros de instancia:* son como las únicas características y comportamientos de un empleado individual (ej. cada empleado tiene su propio nombre, salario, y puede llevar a cabo un trabajo especifico).
