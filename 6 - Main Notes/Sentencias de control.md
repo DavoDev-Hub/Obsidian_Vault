@@ -25,7 +25,7 @@ void applyBrakes() {
 
 #### sentencias while and do-while 
 
-La sentencia while ejecuta un código mientras la sentencia dentro de los parentesis se cumpla. La diferencia que hay entre do-while y while, es que do-while ejecuta todo el código al menos una vez, y el while solo si la sentencia se cumple en el momento. 
+La sentencia while ejecuta un código mientras la sentencia dentro de los paréntesis se cumpla. La diferencia que hay entre do-while y while, es que do-while ejecuta todo el código al menos una vez, y el while solo si la sentencia se cumple en el momento. 
 ```java
 while (expression) {
      statement(s)
