@@ -186,8 +186,6 @@ public class FinalClassExample {
 * Usa `final` en las clases cuando quieras impedir que se extiendan. Esto suele hacerse por razones de seguridad, para reforzar la inmutabilidad o cuando el diseño indica que la clase es una unidad completa y autónoma.
 
 
-
-
 # References
 
 [[POO]]
