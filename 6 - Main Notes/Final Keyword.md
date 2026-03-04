@@ -188,6 +188,11 @@ public class FinalClassExample {
 
 # References
 
+* https://www.baeldung.com/java-final
+* https://stackoverflow.com/questions/15655012/how-does-the-final-keyword-in-java-work-i-can-still-modify-an-object
+
+
+
 [[POO]]
 [[Clases y Objetos]]
 [[Static Keyword]]

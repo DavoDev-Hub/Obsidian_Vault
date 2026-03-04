@@ -296,6 +296,11 @@ public class StaticNestedDemo {
 
 
 # References
+
+* https://www.freecodecamp.org/news/java-static-keyword-explained/
+* https://jenkov.com/tutorials/java/fields.html#static-and-non-static-fields
+* https://www.baeldung.com/java-static
+
 [[Clases y Objetos]]
 [[Métodos y Atributos en Java]]
 

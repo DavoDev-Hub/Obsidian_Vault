@@ -196,4 +196,9 @@ public class Carro {
 
 # References
 
+* https://jenkov.com/tutorials/java/classes.html
+* https://jenkov.com/tutorials/java/methods.html
+* https://jenkov.com/tutorials/java-collections/properties.html
+
+
 [[Clases y Objetos]]

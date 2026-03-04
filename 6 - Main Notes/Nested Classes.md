@@ -114,5 +114,9 @@ Runnable task = new Runnable() {
 - **Enums anidados**: Posibles, pero raros.
 
 # References
+https://jenkov.com/tutorials/java/nested-classes.html
+
+https://www.baeldung.com/java-nested-classes
+
 [[Clases y Objetos]]
 

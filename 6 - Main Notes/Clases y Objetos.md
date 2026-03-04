@@ -52,4 +52,7 @@ Usa el punto (`.`) para acceder a campos y métodos: `objeto.campo` o `objeto
 
 # References
 
+* https://www.programiz.com/java-programming/class-objects 
+
+
 [[Métodos y Atributos en Java]]
