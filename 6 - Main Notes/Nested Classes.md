@@ -2,7 +2,7 @@
 
 Status:
 
-Tags: [[Java]] [[POO]]
+Tags: [[Java]] [[3 - Tags/POO]]
 
 
 # Nested Classes

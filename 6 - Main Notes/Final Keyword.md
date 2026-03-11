@@ -2,7 +2,7 @@
 
 Status:
 
-Tags: [[Java]] [[POO]]
+Tags: [[Java]] [[3 - Tags/POO]]
 
 
 # Final Keyword
@@ -193,6 +193,6 @@ public class FinalClassExample {
 
 
 
-[[POO]]
+[[3 - Tags/POO]]
 [[Clases y Objetos]]
 [[Static Keyword]]

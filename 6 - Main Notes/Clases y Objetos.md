@@ -3,7 +3,7 @@
 
 Status: #child 
 
-Tags: [[Java]] [[POO]]
+Tags: [[Java]] [[3 - Tags/POO]]
 
 
 # Clases y Objetos
