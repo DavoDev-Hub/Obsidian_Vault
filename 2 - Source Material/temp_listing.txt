@@ -1,0 +1,23 @@
+Ansible en múltiples entornos.md
+Ansible Galaxy.md
+Ansible Vault.md
+Arquitectura de Ansible.md
+Comandos ad-hoc en Ansible.md
+Conceptos Básicos.md
+Condicionales en Ansible.md
+Configuración de Ansible (ansible.cfg).md
+Ejercicios Practicar.md
+Filtros Jinja2 en Ansible.md
+Handlers en Ansible.md
+Instalación de Ansible.md
+Inventarios en Ansible.md
+Loops en Ansible.md
+Módulos esenciales en Ansible.md
+Orquestación y opciones avanzadas de ejecución en Ansible.md
+Playbooks en Ansible.md
+Roles en Ansible.md
+Templates y Jinja2 en Ansible.md
+Variables de tipo primitivo.md
+Variables y Hechos en Ansible.md
+Variables.md
+YAML.md

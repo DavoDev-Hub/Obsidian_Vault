@@ -1,5 +1,6 @@
 {
   "cssTheme": "Shimmering Focus",
   "textFontFamily": "",
-  "theme": "system"
+  "theme": "system",
+  "showRibbon": true
 }
